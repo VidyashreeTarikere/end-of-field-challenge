@@ -1,36 +1,39 @@
-* {margin: 0; padding: 0; list-style: none;}
+body{
+    background-color: black;
+}
 
 .box {
     display: flex;
     flex-direction: row;
     align-items: stretch;
     justify-content : center; 
-    margin-top: 10%;
+    
   
 }
- .title{
-  
-    background-color: lightgray;
-    height: 80px;
-    margin-bottom: 80px;
-}
+ 
 h1{
     margin-right: 60%;
-    font-size: 40px;
-    margin-bottom: 5%;
+    font-size: 14px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: font-family: 'DM Serif Text', serif;;
 }
 
 hr {
-    width:100%;text-align:left;margin-left:0;
-    margin-bottom: 10%;
+    width: 320px ;
+    
+    margin-bottom : 25px;
+   border : 0.5px solid #cccccc;
+   background-color: #cccccc;
 }
 
 #container {
-    background-color: lightgrey;
-    width : 30%;
-    height: 350px;
-    margin: auto auto;
-    border : 5px solid lightgrey;
+    background-color: #e9e9e9;
+    width : 340px;
+    height: 215px;
+    margin: 10px;
+    margin-left: 10px;
     display :flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -42,10 +45,18 @@ hr {
     text-align: center;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 10px;
     font-weight: bold;
-    margin: 4px;
-    padding: 10px;
+    margin: 5px;
+    margin-left: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 10%;
+    font-size: 11px;
+    font-family: font-family: 'Lato', sans-serif;;
 }
-
+ #container div  : :active {
+    color : black;
+ }
