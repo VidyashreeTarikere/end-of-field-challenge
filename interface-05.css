@@ -1,0 +1,37 @@
+* {margin: 0; padding: 0; list-style: none;}
+
+box {
+    width: auto;
+    height: auto;
+}
+ h1{
+    background-color: lightgray;
+    display: inline-block;
+    text-align: center;
+    border-bottom: gray;
+}
+
+#container {
+    background-color: lightgrey;
+    width : 30%;
+    height: 300px;
+    margin: auto auto;
+    border : 5px solid lightgrey;
+    display :flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#container div {
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 10%;
+}
+

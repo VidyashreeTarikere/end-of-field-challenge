@@ -1,0 +1,47 @@
+body {
+    max-width: 900px;
+    margin: 2em auto;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:70% 70%;
+    grid-template-areas:
+    "main aside" ;
+    width: auto;
+}
+
+main {
+    grid-area: main;
+    margin-right: 80px;
+}
+
+aside {
+    grid-area: aside;
+    padding: 1px;
+    margin-left: 50px;
+}
+
+
+ul{
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; /* Remove margins */
+  }
+  
+  ul li {
+   
+    margin-top: -1px; /* Prevent double borders */
+  
+    padding: 12px; /* Add some padding */
+  }
+  
+ .list {
+     width: 100%;
+ }
+
+ .no {
+     float: right;
+ }
