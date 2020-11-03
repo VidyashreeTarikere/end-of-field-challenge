@@ -20,8 +20,25 @@ A difficulty was found, different tools showed different data in the measurement
 
 ---
 
-## Tools and Tech :
+## Tools and Tech : :hammer:
 
 Built with :
 
-- 
+- Visual Studio Code for HTML, CSS, Markdown
+- Gimp, Photoshop, ColorPick
+- StackOverFlow, MDN, W3Schools and other sources.
+
+## Author and Rights :bulb:
+
+Developed by Vidyashree Tarikere for Becode.
+
+## Products :
+
+You can find all the three interfaces with the below index.html file.
+
+## Thanks to : :gift:
+
+God, Google, YouTube Becode, Parents, Husband.
+
+_Copyrights to VidyashreeTarikere for BeCode_ :memo:
+
